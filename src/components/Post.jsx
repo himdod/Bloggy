@@ -1,15 +1,14 @@
-import { PostStore } from "../store/postStore";
+// import { PostStore } from "../store/postStore";
 import { AiFillDelete } from "react-icons/ai";
 import { useContext } from "react";
 
 
 
 function PostCard({posts}) {
-  const {deletePost} = useContext(PostStore);
+  // const {deletePost} = useContext(PostStore);
 
   return (
     <>
-    {/* {console.log(posts.title)} */}
     <div className="card post-card" style={{ width: "30rem" }}>
       <div className="card-body">
         <h5 className="card-title">

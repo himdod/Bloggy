@@ -1,5 +1,5 @@
 import { useContext, useRef } from "react";
-import { PostStore } from "../store/postStore";
+// import { postStore } from "../store/postStore";
 import { Form, redirect, useNavigate } from "react-router-dom";
 
 function CreatePost() {
